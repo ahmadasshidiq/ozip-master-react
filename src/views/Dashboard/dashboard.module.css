@@ -1,0 +1,58 @@
+.layout {
+    width: 100vw;
+    height: 100vh;
+}
+
+.layoutBody {
+    height: 100%;
+    gap: 0.8rem;
+    overflow-y: scroll;
+}
+
+.card {
+    margin: 2rem 5rem;
+    padding: 2rem 5rem;
+}
+
+
+.inputText {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.inputText div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 3rem 0 1rem 0;
+    gap: 1rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.pagLimit {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tableNotReady{
+    display: flex;
+    place-content: center;
+    padding: 3rem;
+}
